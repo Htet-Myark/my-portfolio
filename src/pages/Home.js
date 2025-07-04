@@ -21,7 +21,7 @@ function Home() {
           </a>
           
         </div>
-        <a href="/projects" className="cta-button">View My Work</a>
+        <a href="/Projects" className="cta-button">View My Work</a>
       </div>
     </div>
   );

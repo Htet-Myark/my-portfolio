@@ -42,7 +42,7 @@ const projects = [
   {
     title: 'Calculator App',
     description: 'A basic calculator like IOS.',
-    link: 'https://github.com/your-username/todo-app',
+    link: 'https://calculator-tyks.onrender.com',
     techstacks: ['react', 'js', 'css']
   },
   {
