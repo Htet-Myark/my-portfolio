@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Projects.css';
 import { motion } from 'framer-motion';
+import SolarSystem from '../components/solarBg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -57,8 +58,12 @@ const projects = [
 function Projects() {
   return (
     <div className="projects-container">
+      
+      <SolarSystem />
       <h1>My Projects</h1>
+      
       <div className="project-grid">
+        
         {projects.map((proj, index) => (
           <motion.div
             className="project-card"

@@ -1,29 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './css/Home.css';
 import profileImg from '../assets/profile.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import SolarSystem from '../components/solarBg';
 
-import Game from '../components/game';
-import Leaderboard from '../components/leaderboard';
+
+
 
 function Home() {
-  const [scores, setScores] = useState([]);
+  
 
-  useEffect(() => {
-    const stored = JSON.parse(localStorage.getItem("leaderboard") || "[]");
-    setScores(stored);
-  }, []);
+ 
 
-  const handleScoreSubmit = (newScore) => {
-    const updated = [...scores, newScore];
-    setScores(updated);
-    localStorage.setItem("leaderboard", JSON.stringify(updated));
-  };
+  
 
   return (
     <div className="home-page">
+      <SolarSystem />
       {/* Section 1: Profile */}
       <section className="section profile-section">
         <div className="intro">
@@ -42,12 +37,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Section 2: Game */}
-      <section className="section game-section">
-        <h2>🎮 Test Your Reaction Speed!</h2>
-        <Game onScoreSubmit={handleScoreSubmit} />
-        <Leaderboard scores={scores} />
-      </section>
+      
     </div>
   );
 }

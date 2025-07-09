@@ -1,9 +1,14 @@
 import React from "react";
 import "./css/about.css";
+import SolarSystem from '../components/solarBg';
 
 function About() {
   return (
+    <>
+    
     <div className="about-container">
+      <SolarSystem />
+      
       <h1>About Me</h1>
       <p className="about-intro">
         Hello! I'm <strong>Htet Myark</strong>, a passionate web developer with
@@ -43,7 +48,7 @@ function About() {
           </a>
         </li>
       </ul>
-    </div>
+    </div></>
   );
 }
 
