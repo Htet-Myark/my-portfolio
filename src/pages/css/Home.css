@@ -1,13 +1,15 @@
 .home-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
   min-height: 100vh;
+  padding: 60px 20px;
   background: linear-gradient(to right, #f8f9fa, #e9ecef);
-  padding: 40px 20px;
-  text-align: center;
   animation: fadeIn 1.2s ease-in;
 }
+
 
 .intro {
   width: 100%;
@@ -116,4 +118,100 @@
     padding: 10px 20px;
     font-size: 1rem;
   }
+}
+
+
+.game-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.game-box {
+  background-color: #f1f1f1;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background-color 0.3s;
+}
+
+.game-box:hover {
+  background-color: #dff0d8;
+}
+
+.leaderboard-box {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.game-leaderboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+}
+
+
+.home-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  min-height: 100vh;
+}
+
+
+.home-page {
+  scroll-behavior: smooth;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section 1: Profile styling stays the same */
+.profile-section {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+/* Section 2: Game styling */
+.game-section {
+  background-color: #ffffff;
+}
+
+.game-section h2 {
+  margin-bottom: 30px;
+}
+
+.game-box {
+  background-color: #f1f1f1;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background-color 0.3s;
+}
+
+.game-box:hover {
+  background-color: #dff0d8;
+}
+
+.leaderboard-box {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
