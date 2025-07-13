@@ -23,7 +23,7 @@ function Home() {
       <section className="section profile-section">
         <div className="intro">
           <img src={profileImg} alt="Profile" className="profile-photo" />
-          <h1>Hello, I'm Htet Myark</h1>
+          <h3>Hello, I'm Htet Myark Aung</h3>
           <p>I'm a passionate developer building web apps with React and JavaScript.</p>
           <div className="social-icons">
             <a href="https://github.com/Htet-Myark" target="_blank" rel="noopener noreferrer">
@@ -33,7 +33,7 @@ function Home() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
-          <a href="/Projects" className="cta-button">View My Work</a>
+          <a href="/projects" className="cta-button">View My Work</a>
         </div>
       </section>
 
