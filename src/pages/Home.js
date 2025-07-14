@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Home.css';
 import profileImg from '../assets/profile.png';
+import { NavLink } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -33,7 +34,8 @@ function Home() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
-          <a href="/projects" className="cta-button">View My Work</a>
+          {/* <a href="/projects" className="cta-button">View My Work</a> */}
+          <NavLink to="/projects" className="cta-button" activeclassname="active">View My work</NavLink>
         </div>
       </section>
 
