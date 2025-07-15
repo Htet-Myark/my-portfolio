@@ -50,8 +50,9 @@ function About() {
 
         <h2>Languages I Speak</h2>
         <ul className="facts-list">
-          <li>🇬🇧 English – Fluent</li>
-          <li>🇲🇲 Burmese – Native</li>
+          <li> Burmese - Native</li>
+          <li> English - Fluent</li>
+          
         </ul>
       </div>
     </>
