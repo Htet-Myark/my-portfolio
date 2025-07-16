@@ -6,7 +6,7 @@
   gap: 40px;
   min-height: 100vh;
   padding: 60px 20px;
-  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  background: linear-gradient(to right, #9bbfe3, #bdc7d2);
   animation: fadeIn 1.2s ease-in;
 }
 
@@ -14,7 +14,7 @@
 .intro {
   width: 100%;
   max-width: 600px;
-  background: white;
+  background: rgb(166, 227, 235);
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
