@@ -12,15 +12,16 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ padding: "20px" }}>
+      <div >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
+        
       </div>
+      <Footer />
     </Router>
   );
 }

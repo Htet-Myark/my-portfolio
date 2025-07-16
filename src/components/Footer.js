@@ -8,7 +8,7 @@ function Footer() {
         <p>© 2025 Htet Myark</p>
         <p>
           Built with ❤️ using React.{' '}
-          <a href="https://github.com/your-username/portfolio" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Htet-Myark/my-portfolio" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </p>
