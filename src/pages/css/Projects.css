@@ -44,7 +44,7 @@
 .project-card h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #007bff;
+  color: #000000;
 }
 
 .project-card p {
@@ -55,7 +55,7 @@
 
 .project-card a {
   text-decoration: none;
-  color: #007bff;
+  color: #2f03f4;
   font-weight: bold;
   margin-top: auto;
   
