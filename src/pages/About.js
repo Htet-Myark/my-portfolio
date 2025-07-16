@@ -50,9 +50,30 @@ function About() {
 
         <h2>Languages I Speak</h2>
         <ul className="facts-list">
-          <li> Burmese - Native</li>
-          <li> English - Fluent</li>
+          <li>🇬🇧 English – Fluent</li>
+          <li>🇲🇲 Burmese – Native</li>
+        </ul>
+
+        {/* New Certifications Section */}
+        <h2>Certifications</h2>
+        <ul className="certifications-list">
           
+          
+          <li>
+            <strong>Python for Data Science</strong> – Coursera (2021)
+            <br />
+            <a
+              href="https://www.datacamp.com/completed/statement-of-accomplishment/course/6d7b96d2ea7d718f241525d86e336e3b779e64dc"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#007bff",
+                textDecoration: "underline",
+              }}
+            >
+              View Certificate
+            </a>
+          </li>
         </ul>
       </div>
     </>
