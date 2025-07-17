@@ -65,13 +65,33 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: "#4f7d59ff",
+                color: "#a3c8abff",
                 textDecoration: "none",
                 outline: "none"
               }}
             >
               <li>
-            <strong>Python for Data Science</strong> 
+            <strong>Introduction to Linear Modeling in Python</strong> 
+
+            <br />
+            DataCamp Course
+            <br />
+              View Certificate
+               </li>
+            </a>
+
+            <a
+              href="https://www.datacamp.com/completed/statement-of-accomplishment/course/6007d7d6be7a3937217ded1a9824af25934ea8b3"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#a3c8abff",
+                textDecoration: "none",
+                outline: "none"
+              }}
+            >
+              <li>
+            <strong>Statistical Thinking in Python (Part 1)</strong> 
 
             <br />
             DataCamp Course
