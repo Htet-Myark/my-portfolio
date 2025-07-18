@@ -87,6 +87,20 @@ function About() {
               <span className="view-certificate">View Certificate</span>
             </a>
           </li>
+          <li className="certification-item">
+            <a
+              href="https://www.datacamp.com/completed/statement-of-accomplishment/course/a19321c5edf1abdb632d80db864da7cc30602e5e"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="certification-link"
+            >
+              <strong>Statistical Thinking in Python (Part 2)</strong>
+              <br />
+              DataCamp Course
+              <br />
+              <span className="view-certificate">View Certificate</span>
+            </a>
+          </li>
         </ul>
       </div>
     </>
