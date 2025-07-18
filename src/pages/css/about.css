@@ -42,9 +42,10 @@
 }
 
 .certifications-list li {
-  background-color: #05322b;
+  background-color: #7f2ec6;
   padding: 15px;
   border-radius: 8px;
+
   margin-bottom: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -55,4 +56,6 @@
 
 .certifications-list a {
   font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
 }

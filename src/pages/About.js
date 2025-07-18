@@ -58,48 +58,35 @@ function About() {
         <h2>Certifications</h2>
         <ul className="certifications-list">
           
-          
-          
+          <li className="certification-item">
             <a
               href="https://www.datacamp.com/completed/statement-of-accomplishment/course/6d7b96d2ea7d718f241525d86e336e3b779e64dc"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                color: "#a3c8abff",
-                textDecoration: "none",
-                outline: "none"
-              }}
+              className="certification-link"
             >
-              <li>
-            <strong>Introduction to Linear Modeling in Python</strong> 
-
-            <br />
-            DataCamp Course
-            <br />
-              View Certificate
-               </li>
+              <strong>Introduction to Linear Modeling in Python</strong>
+              <br />
+              DataCamp Course
+              <br />
+              <span className="view-certificate">View Certificate</span>
             </a>
+          </li>
 
+          <li className="certification-item">
             <a
               href="https://www.datacamp.com/completed/statement-of-accomplishment/course/6007d7d6be7a3937217ded1a9824af25934ea8b3"
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                color: "#a3c8abff",
-                textDecoration: "none",
-                outline: "none"
-              }}
+              className="certification-link"
             >
-              <li>
-            <strong>Statistical Thinking in Python (Part 1)</strong> 
-
-            <br />
-            DataCamp Course
-            <br />
-              View Certificate
-               </li>
+              <strong>Statistical Thinking in Python (Part 1)</strong>
+              <br />
+              DataCamp Course
+              <br />
+              <span className="view-certificate">View Certificate</span>
             </a>
-         
+          </li>
         </ul>
       </div>
     </>
