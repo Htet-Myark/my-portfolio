@@ -3,6 +3,11 @@ import "./css/about.css";
 import SolarSystem from '../components/solarBg';
 
 function About() {
+  // Helper function to handle click
+  const handleClick = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <>
       <div className="about-container">
@@ -57,49 +62,28 @@ function About() {
         {/* New Certifications Section */}
         <h2>Certifications</h2>
         <ul className="certifications-list">
-          
-          <li className="certification-item">
-            <a
-              href="https://www.datacamp.com/completed/statement-of-accomplishment/course/6d7b96d2ea7d718f241525d86e336e3b779e64dc"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certification-link"
-            >
-              <strong>Introduction to Linear Modeling in Python</strong>
-              <br />
-              DataCamp Course
-              <br />
-              <span className="view-certificate">View Certificate</span>
-            </a>
+          <li className="certification-item" onClick={() => handleClick('https://www.datacamp.com/completed/statement-of-accomplishment/course/6d7b96d2ea7d718f241525d86e336e3b779e64dc')}>
+            <strong>Introduction to Linear Modeling in Python</strong>
+            <br />
+            DataCamp Course
+            <br />
+            <span className="view-certificate">View Certificate</span>
           </li>
 
-          <li className="certification-item">
-            <a
-              href="https://www.datacamp.com/completed/statement-of-accomplishment/course/6007d7d6be7a3937217ded1a9824af25934ea8b3"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certification-link"
-            >
-              <strong>Statistical Thinking in Python (Part 1)</strong>
-              <br />
-              DataCamp Course
-              <br />
-              <span className="view-certificate">View Certificate</span>
-            </a>
+          <li className="certification-item" onClick={() => handleClick('https://www.datacamp.com/completed/statement-of-accomplishment/course/6007d7d6be7a3937217ded1a9824af25934ea8b3')}>
+            <strong>Statistical Thinking in Python (Part 1)</strong>
+            <br />
+            DataCamp Course
+            <br />
+            <span className="view-certificate">View Certificate</span>
           </li>
-          <li className="certification-item">
-            <a
-              href="https://www.datacamp.com/completed/statement-of-accomplishment/course/a19321c5edf1abdb632d80db864da7cc30602e5e"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certification-link"
-            >
-              <strong>Statistical Thinking in Python (Part 2)</strong>
-              <br />
-              DataCamp Course
-              <br />
-              <span className="view-certificate">View Certificate</span>
-            </a>
+
+          <li className="certification-item" onClick={() => handleClick('https://www.datacamp.com/completed/statement-of-accomplishment/course/a19321c5edf1abdb632d80db864da7cc30602e5e')}>
+            <strong>Statistical Thinking in Python (Part 2)</strong>
+            <br />
+            DataCamp Course
+            <br />
+            <span className="view-certificate">View Certificate</span>
           </li>
         </ul>
       </div>
