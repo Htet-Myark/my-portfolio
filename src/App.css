@@ -1,18 +1,19 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  
 }
 
-nav {
-  background: #333;
+/* nav {
+  background: #dda8a8;
   padding: 10px;
 }
 
 nav a {
-  color: white;
+  color: rgb(33, 11, 11);
   margin-right: 20px;
   text-decoration: none;
-}
+} */
 
 
 html {

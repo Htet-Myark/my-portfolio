@@ -1,13 +1,16 @@
 import React from "react";
+
 import "./css/about.css";
-import SolarSystem from "../components/solarBg";
+
 
 function About() {
   const handleClick = (url) => window.open(url, "_blank");
 
   return (
     <div className="about-container">
-      <SolarSystem />
+
+      
+      
 
       <section className="about-section">
         <h1>About Me</h1>
