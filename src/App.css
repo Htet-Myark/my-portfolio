@@ -13,3 +13,8 @@ nav a {
   margin-right: 20px;
   text-decoration: none;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

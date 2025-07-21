@@ -1,27 +1,22 @@
 import React from 'react';
 import './css/Home.css';
 import profileImg from '../assets/profile.png';
-import { NavLink } from 'react-router-dom';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import SolarSystem from '../components/solarBg';
-
-
-
+import Projects from './Projects';
+import About from './About';
+import Contact from './Contacts';
+import Footer from '../components/Footer'; // if you created it
 
 function Home() {
-  
-
- 
-
-  
-
   return (
     <div className="home-page">
       <SolarSystem />
-      {/* Section 1: Profile */}
-      <section className="section profile-section">
+
+     
+      <section id="home" className="section profile-section">
         <div className="intro">
           <img src={profileImg} alt="Profile" className="profile-photo" />
           <h3>Hello, I'm Htet Myark Aung</h3>
@@ -34,12 +29,25 @@ function Home() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
-          {/* <a href="/projects" className="cta-button">View My Work</a> */}
-          <NavLink to="/projects" className="cta-button" activeclassname="active">View My work</NavLink>
         </div>
       </section>
 
-      
+      {/* === About Section === */}
+      <section id="about" className="section">
+        <About />
+      </section>
+
+      {/* === Projects Section === */}
+      <section id="projects" className="section">
+        <Projects />
+      </section>
+
+      {/* === Contact Section === */}
+      <section id="contact" className="section">
+        <Contact />
+      </section>
+
+      <Footer />
     </div>
   );
 }

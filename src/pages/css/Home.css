@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   gap: 40px;
   min-height: 100vh;
+  z-index: 1;
   padding: 60px 20px;
   background: linear-gradient(to right, #9bbfe3, #bdc7d2);
   animation: fadeIn 1.2s ease-in;
