@@ -47,7 +47,7 @@ function Home() {
         <Contact />
       </section>
 
-      <Footer />
+      
     </div>
   );
 }
