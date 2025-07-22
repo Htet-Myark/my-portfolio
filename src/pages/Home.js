@@ -8,7 +8,7 @@ import SolarSystem from '../components/solarBg';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contacts';
-import Footer from '../components/Footer'; // if you created it
+// import Footer from '../components/Footer'; // if you created it
 
 function Home() {
   return (
