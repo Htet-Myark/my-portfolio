@@ -1,8 +1,8 @@
 .contact-container {
   text-align: center;
   padding: 20px 20px;
-  background-color: aliceblue;
-  min-height: 100vh;
+  background-color: rgb(158, 193, 224);
+  max-height: 80vh;
 }
 
 .contact-container h1 {
