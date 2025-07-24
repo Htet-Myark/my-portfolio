@@ -32,7 +32,7 @@ function NeonRingsScene() {
       <NeonRing radius={11} thickness={0.08} color="#dddddd" speed={0.01} />
       
 
-      <NeonRing radius={10} thickness={0.08} color="#00" speed={0.002} />
+      <NeonRing radius={10} thickness={0.08} color="#0cffff" speed={0.002} />
       <NeonRing radius={7} thickness={0.05} color="#ff00ff" speed={-0.0015} />
       <NeonRing radius={9} thickness={0.07} color="#00ff99" speed={0.001} />
     </>
